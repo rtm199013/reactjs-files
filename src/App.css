@@ -1,3 +1,13 @@
+.border {
+  border: solid 1px white;
+}
+.border1 {
+  border: solid 1px yellow;
+}
+.border3 {
+  border: solid 1px red;
+}
+
 .App {
   text-align: center;
 }
@@ -35,4 +45,16 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+table {
+  border-collapse: collapse;
+}
+td,
+th {
+  border: solid 1px white;
+}
+
+.restopic {
+  padding-top: 20px;
 }
